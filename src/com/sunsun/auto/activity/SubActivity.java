@@ -6,8 +6,12 @@ import android.support.v4.app.FragmentActivity;
 public class SubActivity extends FragmentActivity {
 
 	@Override
-	protected void onCreate(Bundle arg0) {
-		super.onCreate(arg0);
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+	}
+	
+	public void setOne(){
+		
 	}
 
 }

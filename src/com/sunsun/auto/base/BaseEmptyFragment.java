@@ -1,7 +1,5 @@
 package com.sunsun.auto.base;
 
-import com.sunsun.auto.R;
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +11,7 @@ import android.view.animation.LinearInterpolator;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.sunsun.auto.R;
 
 public class BaseEmptyFragment extends BaseFragment {
 
@@ -137,7 +136,6 @@ public class BaseEmptyFragment extends BaseFragment {
 	protected void onEmptyViewClicked() {
 
 	}
-
 
 	protected void onLoadingText(String text) {
 		if (mLoadTextingView != null) {
