@@ -13,5 +13,9 @@ public class SubActivity extends FragmentActivity {
 	public void setOne(){
 		
 	}
+	
+	public void setTwo(){
+		
+	}
 
 }
