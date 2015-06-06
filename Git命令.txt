@@ -1,0 +1,23 @@
+1¡¢create a new repository on the command line
+echo # Auto >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/bigirstproject/Auto.git
+git push -u origin master
+
+2¡¢push an existing repository from the command line
+git remote add origin https://github.com/bigirstproject/Auto.git
+git push -u origin master
+
+
+git init
+git add *
+git commit <-a>  <-m "first commit">
+git remote add origin https://github.com/bigirstproject/Auto.git
+git push <-u> origin master/1.1/1.2
+git fetch <origin 1.2>
+git pull <origin 1.2> 
+git branch
+git checkout 1.2
+git mergin origin/1.2
