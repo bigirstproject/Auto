@@ -9,19 +9,17 @@ public class SubActivity extends FragmentActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 	}
-	
-	public int setOne(){
-	return 	0;
-	}
-	
-<<<<<<< HEAD
-	public void setTwo(){
-		
-	}
-=======
-      public void setToast(){
 
-      }
->>>>>>> 1.2
+	public int setOne() {
+		return 0;
+	}
+
+	public void setTwo() {
+
+	}
+
+	public void setToast() {
+
+	}
 
 }
