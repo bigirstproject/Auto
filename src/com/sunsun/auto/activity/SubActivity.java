@@ -10,8 +10,12 @@ public class SubActivity extends FragmentActivity {
 		super.onCreate(savedInstanceState);
 	}
 	
-	public void setOne(){
-		
+	public int setOne(){
+	return 	0;
 	}
+	
+      public void setToast(){
+
+      }
 
 }
