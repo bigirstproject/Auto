@@ -1,4 +1,4 @@
 bin/
 gen/
-.project
-.classpath
+*.project
+*.classpath
